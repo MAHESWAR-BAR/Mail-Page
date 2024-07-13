@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ambulance</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="index.css" /> -->
+
+  <!-- APPOINTMENT BOOKING -->
+
+  <style>
+    body {
+      font-family: "Poppins";
+      margin: 0;
+      padding: 10px;
+      margin: auto;
+      background-color: #d3d6d8;
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+
+    }
+
+    .mailBody {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .table td {
+      width: 49%;
+    }
+
+    p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    #first-letter {
+      padding-left: 1.5rem;
+    }
+
+    #logo {
+      height: 12vh;
+      float: right;
+      right: 2rem;
+    }
+
+    #img {
+      height: auto;
+      width: 100%;
+      margin-left: 0.7rem;
+    }
+
+    img {
+      height: auto;
+    }
+
+    .customer-query p,
+    a {
+      font-weight: bold;
+    }
+
+    #br {
+      color: rgb(65, 65, 157);
+      padding-left: 1rem;
+    }
+
+    .contact-details a {
+      color: black;
+      font-weight: normal;
+    }
+
+    #line {
+      height: 5px solid rgb(39, 201, 219);
+      width: 14rem;
+      border: 3px solid rgb(97, 198, 237);
+      display: inline-block;
+      margin-left: 1.5rem;
+      margin-top: 1rem;
+      position: relative;
+    }
+
+    .ul {
+      margin-bottom: -15px;
+    }
+
+    .table {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .table tbody {
+      width: 50%;
+    }
+
+    @media (max-width: 700px) {
+      .table {
+        width: 100%;
+      }
+
+    }
+
+    @media (min-width: 701px) {
+      .wrapper {
+        width: 65%;
+        margin: auto;
+      }
+    }
+
+    h2 {
+      padding-left: 1.5rem;
+    }
+
+    #second-link {
+      margin-left: 1.5rem;
+    }
+
+    #qr {
+      float: right;
+      margin-top: -12rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
+
+    /* .dear p{
+  padding-left: 1rem;
+} */
+    .qr-div {
+      display: flex;
+    }
+
+    #qr-id {
+      padding-left: 2rem;
+    }
+
+    .down-nav {
+      height: 4rem;
+      background-color: rgb(34, 34, 218);
+      margin: auto;
+      color: white;
+    }
+
+    .down-nav p {
+      margin: auto;
+      padding-left: 10rem;
+    }
+
+
+
+    .icon-img {
+      height: 2rem;
+      width: auto;
+    }
+
+    .last-div {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    @media(max-width:479px) {
+      .qr-div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .last-div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    @media(max-width:430px) {
+      .table {
+        width: 100%;
+        height: 100%;
+      }
+
+      .qr-div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .last-div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    .dv {
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper" style="background-color: white">
+    <table class="main" style="width: 100%">
+
+
+
+      <div class="mailBody">
+
+
+        <img src="/rectangle_7.png" id="logo"><img />
+
+        <div class="nav-photo">
+          <img src="/nav-photo.jpg" id="img"><img />
+        </div>
+
+        <tr>
+          <div class="dear">
+            <p>Dear [Patient Name],</p>
+          </div>
+        </tr>
+        <p id="second-p">Thank you for contacting RaphaCure Ambulance Service. We have received your request for
+          ambulance service. Our team is currently reviewing your request to dispatch the closest available ambulance as
+          per your request.
+        </p>
+        <p>
+
+          <br>
+          A member of our team will contact you shortly to confirm your request and provide an estimated arrival time.
+          For immediate assistance, please call 9555166000.
+
+          <br>
+        <p>
+          For any inquiries, additional information, or updates regarding your ambulance request, please use the
+          following quick action buttons:
+        </p>
+
+
+        <div class="customer-query">
+          <p>Quick Action Buttons:</p>
+          <ul>
+            <li><a href="#">Emergency Call Us</a></li>
+            <li><a href="#">Request Update</a></li>
+            <li><a href="#">Cancel Request</a></li>
+
+          </ul>
+
+        </div>
+        <div class="contact-details">
+          <ul class="ul">
+            <li><a href="#">Ms.Amrin Khan</a></li>
+            <li><a href="#">Regional Head-Operations</a></li>
+            <li><a href="#">Raphcure</a></li>
+            <li><a href="#">Toll free number : 9555166000</a></li>
+            <li><a href="https:/wellness@raphacure.com">wellness@raphacure.com</a></li>
+          </ul>
+          <span id="line"></span>
+
+          <div>
+            <img src="" />
+
+          </div>
+          <div class="qr-div">
+            <div class="footer-a">
+              <h2>Let's heal together! Team RaphaCure!</h2>
+              <a href="https://api.whatsapp.com/message/EU56OXWSE2XVE1?autoload=1&app_absent=0" id="second-link">Click
+                to access the chartbot here,</a>
+              <p>Your wellnes journey starts now. Reach out today!</p>
+
+            </div>
+
+            <div class="qr">
+              <img src="/qr.png" id="qr-id"></img>
+            </div>
+
+          </div>
+
+          <div class="down-nav">
+            <p>We will contact you soon with the confirmation details of the booking.</p>
+            <p>For furthur queries, you can write us at wellness@raphacure.com</p>
+          </div>
+
+          <div class="last-div">
+
+            <div>
+              <p id="visit">Visit www.raphacure.com</p>
+              <ul class="ul1">
+                <a href="https://www.facebook.com/"><img src="12.png" class="icon-img"></img></a>
+                <a href="https://www.instagram.com/"><img src="13.png" class="icon-img"></img></a>
+                <a href="https://www.youtube.com/"><img src="14.png" class="icon-img"></img></a>
+                <a href="https://www.twitter.com/"><img src="15.png" class="icon-img"></img></a>
+                <a href="https://www.linkdin.com/"><img src="16.png" class="icon-img"></img></a>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Unsubscribe</h4>
+              <a href="https://wellness@raphacure.com">wellnes@raphacure.com</a>
+            </div>
+          </div>
+
+        </div>
+</body>
+
+</html>
